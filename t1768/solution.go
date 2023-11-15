@@ -1,4 +1,4 @@
-package main
+git package t1768
 
 import "fmt"
 

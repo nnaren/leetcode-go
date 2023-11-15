@@ -2,6 +2,7 @@ package y1123
 
 import (
 	"fmt"
+	"github.com/stretchr/testify/assert"
 	"leetcode/treenode"
 	"testing"
 )
@@ -16,4 +17,6 @@ func Test_solv(t *testing.T) {
 	fmt.Println(ser.Serialize(root))
 	ans := lcaDeepestLeaves(root)
 	fmt.Println(ser.Serialize(ans))
+	assert.Equal(t, 3, ans.Val, "相等")
+	assert.Equal(t, 4, ans.Val, "相等")
 }

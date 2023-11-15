@@ -1,4 +1,4 @@
-package main
+package t1700
 
 import "fmt"
 
